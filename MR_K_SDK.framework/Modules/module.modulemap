@@ -1,0 +1,11 @@
+framework module MR_K_SDK {
+  umbrella header "MR_K_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MR_K_SDK.Swift {
+    header "MR_K_SDK-Swift.h"
+    requires objc
+}
