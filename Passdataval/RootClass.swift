@@ -21,8 +21,8 @@ class RootClass : NSObject{
     var id : Int!
     var title: String?
     var userId : Int!
-
-
+    
+    
     /**
      * Instantiate the instance using the passed dictionary values to set the properties values
      */
@@ -32,7 +32,7 @@ class RootClass : NSObject{
         title = (dictionary["title"] as? String)!
         userId = dictionary["userId"] as? Int
     }
-
+    
     /**
      * Returns all the available property values in the form of [String:Any] object where the key is the approperiate json key and the value is the value of the corresponding property
      */
@@ -53,6 +53,6 @@ class RootClass : NSObject{
         }
         return dictionary
     }
-
+    
     
 }
